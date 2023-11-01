@@ -1,0 +1,12 @@
+requests==2.20.1
+Werkzeug
+aiohttp==3.6.2
+flask==1.0.2
+flask-session
+redis
+pytest
+typing
+pymysql
+simplejson
+flask_session
+pytest

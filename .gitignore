@@ -1,0 +1,7 @@
+*.pyc
+flask_session
+.vscode
+__pycache__
+venv
+static/node_modules
+.pytest_cache

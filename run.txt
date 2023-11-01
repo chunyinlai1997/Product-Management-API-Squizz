@@ -1,0 +1,26 @@
+---- FOR Linux/Mac USERS---
+export FLASK_APP=app
+export FLASK_DEBUG=1
+export BASE_URL=https://api.squizz.com/rest/1
+python -m flask run
+---- END FOR Linux/Mac USERS ---
+
+---- FOR WINDOW USERS---
+for live server:
+set FLASK_APP=app
+set FLASK_DEBUG=1
+set BASE_URL=https://api.squizz.com/rest/1
+
+local server:
+set FLASK_APP=app
+set FLASK_DEBUG=1
+set BASE_URL=https://api.squizz.com/rest/1
+set MYSQL_URI=localhost
+set MYSQL_USERNAME=root
+set MYSQL_PASSWORD=aadesh
+
+---- END FOR Windows USERS---
+
+Testing:
+
+python -m pytest
